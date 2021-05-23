@@ -1,23 +1,50 @@
-# Trabalho Prático 2
+# Operações e tranformações de Imagens
 
-## Heitor Galdino & Hernandes Macedo
+## Desenvolvido por [Hernandes Macedo](https://github.com/hernandesmacedo) & [Heitor Galdino](https://github.com/h80r)
+  &nbsp;
+### [Vídeo de apresentação do projeto](https://youtu.be/Z4o573TguxU)
+  &nbsp;
+
+## Descrição
+Nesse projeto há a implementação dos seguintes algoritmos:
+* Operações aritméticas:
+  * Adição
+  * Subtração
+* Operação geométrica:
+  * Translação
+* Transformação de intensidade:
+  * Negativo
+
+## Definições
+* A <ins>adição</ins> de duas imagens ocorre através da soma de pixels em posições correspondentes. Essa técnica gera uma nova imagem que destaca as semelhanças entre as duas imagens processadas.
+* A <ins>subtração</ins> de duas imagens ocorre através da subtração de pixels em posições correspondentes. Essa técnica gera uma nova imagem que destaca as diferenças entre as duas imagens processadas.
+* A <ins>translação</ins> de uma imagem ocorre através movimentação de seus pixels para uma outra posição desejada. Essa técnica gera uma nova imagem transladada.
+* O <ins>negativo</ins> de uma imagem é obtido através da inversão de suas cores originais. Esse tipo de aplicação é adequado quando se deseja realçar detalhes brancos ou cinzas em meio a regiões escuras, por exemplo.
+
+## Exemplos
+
+  ### Adição de duas imagens
+  ![Exemplo de Adição de Imagens](https://lh3.googleusercontent.com/Y5mw8_NW02wbXnYw1gP29gU4Qrfxcq_F9pM8RC0DuPcLeFvmYd_oMkOfzPZ35PIt93kVTJtd7wSIWwG63xmMeYUdhRSw1r8zelXuIpVNzOT3HaCtdqFDCtLXyYq4-KiOusUSjbStT6VdJYuk-QaLuTykCvW22XYEGJyOkxIj1oF_omOEcAGaHNTd0kTz4vkMmd7buU5RFuYVQal7TT-V0kU2BaKRosKDv9x6tDivLTdCAbYpGAMFWabNkV_zS-YmjrM0ZEg6ZPyiQcwsOg5Y_g1e5FdCsZnu7aUKqYN0ENWwq0WoZu4b7zWTci8GYsjo2z-vYpYYn-Ra6FTz6mgdZEZ07Tp0zKOQo0Fiug9lfVarlIKDAmqcYnTWUBZOhj6fCXCnV-fZrTC4cam0WvqyBYY2n7dsdA5l0SGvG2dkpu8fY2a3UwSnzXFauPPvVzz8mr2ldvig4z-5MPvL2A7FLwKabAiEyOcQw10i8uqkiv_xUtDGkCLb3Z3HAANi7IyKaOtaamqchR62Wd3Ev_iaS7gCecpvRfbWRxj_UAFYv1Osj2igN3UHXpykKb2QqqCC6ljV7PxPBNx6GZB0GnxyE_HPWPePjiE6RKlIAJn03ctpdBrNX7I6wFw9DwTJS17nC4VNeEpiMef4i6HbdBaC61_bsIkXk4hQoaV6X77bUcosOMBxhk0uFVnE4vei_TvP05csIGXmBY7TQgyxy5bfwu8=w1368-h432-no?authuser=0)
+  ### Subtração de duas imagens
+  ![Exemplo de Subtração de Imagens](https://lh3.googleusercontent.com/eZSU-ZHzWdglfbazlliEdaFEPul2iBfOWL5bl4udwcB-dx9SvrPTgBiifaM-8qsmaA5DWPFkTo8ryfozNDAgI9dxVTpcOx6URqfh5W09DVOIqe3NcpfeKRocUbPCeQyVVImslS7qg7gSUEh8JZ52lVr17DO8LwBBguQn-o1AKewuTAAbOhgcG_IS1wqerb1iDH_ExTCaAD6yGGD-qkGpewxg0tnhM53p4S-Ff1X8K7Y-D3dK-j8qzibi5GzPiwzo4_FkxeXp7FuqdUvZtoTBdV2CPr2zJGpB62Xpsnspud6ZOobyFkHP4BarFzC6FoaGEz9-Z-A6amRkOtk-iJqzkvnbLyBJz-WgOsqvD6_9iy6t2po_VF2Abs93uKvRUfZGz-7gD9fs3mixhN6ec8XAz4Kq_Caw_WS2UjkcdntDQ4paObj-hbiJNn2pRprhOTnoYEIWUgFeVUbRo0L5TsYFIYlH00-uOX1uL5nv1vEcsAzEHylEOIzisyn3IF9S-EFkEO7Afqm03SRwgbulKRdVjoDlCEXfPH9zqXuenz0oltr69GW2PH_Ap0gRqZozAzI7DBZyUi5B1EPccqvERJ3BWwRxtxJzCvx5sMc1-FkOUziau-u5TA269nQg5ssbSMWRLzBwMqK-NtJ2StJ1_t1mnaPFB3426j95WjHb9Nnn_L8MeF0tJyZIgWm18BoOR5JCw-QCzEWOwyyehFgUWc5kDcE=w942-h297-no?authuser=0)
+  ### Subtração de duas imagens
+  ![Exemplo de Subtração de Imagens](https://lh3.googleusercontent.com/G-UAMMjrG9awsppRTcmeITtwEAPnB3fyRrjpkjqQpJeM2sic6BPchyQbXe6kjNj02ztu-457Wljuhoh4otdwW-8D2Erc078_WMF5mhyRkK2JeKSxPvomRurk5W2scG7ts1hXE7rbetEj-Ays8zbVTVL9VycKsNPDjnq_KaWbDejYHY5cLpZdp5fsNWezVVwQ5fVa0d0jZmqYJCxKbWcpSe-J8uV-NWxcabWHkHL_EDEjdxSiKWdCTKy9RBHAksKWjw5MURTJwJsi1TjOkULoSAGtaaa7UG89ym36ewyfA_vc1nFSl_OnuuWw_0P1XaEEK4RIm5DOkwxzdgJ1wtXeuCxCuZdF559NM5aGZEev0zGzN4iinCMVXwKZcuv7AQNDYns-c0iuuFS0bl4W8-cmbkNmb8CLeYzrxYp0pQmSdfrMXW31Dwyd7TDxPyBvTOgyoVBDMnPgcS5q-vz7oXf_hfXP-5dfAqfLs8-o7ZLgHoliDaQGceWliKOpu6fMqOvKThAbiZoRcxgv9H4YjSjoCUZ94w7ORih1j4irjeUIWHaA-YQty8YP1wafqt9D26hpBgVdxmVKd0W4d8iagFG10lH9dg2yIxFBYCG3ZnK3Kstcyys3baCxBJINse40U3ETXo8KX1oN7lf3hILPcHSJ9uHynMuQklBzJDx2sv2C5QJS_NXUY13ti7G_knJ3DM-tSGwhuTf5_All_RrieRR1CAU=w1920-h628-no?authuser=0)
+  ### Subtração de duas imagens
+  ![Exemplo de Subtração de Imagens](https://lh3.googleusercontent.com/n2g3-wlRU7FShwi1MCRcrOHRvMPo4hmZXJzjEQV6OAPH5B877P7j41_iqCuiR8XMuAISl0jLR2idcESYSQUqpET40caoIQB2Ayv6CtE1ADcPGDiWroxks6qmyIJ9iE6tvafm8Is1q6Xo-cdpFq0R1x48Uh6-sAn5lIkmOHRACebaQGVSjLjL_AM9W7Ou8BXmUdhz4Oj93KPuyedIMt8kx_SXNtAzjRV5R86rRJSG970ZjImqTp9N9e8Bio6LwqYwteNMjfd3aULzI_dHNFaPELzAawvJ_wHFWR_V5lNL30ulu_6-HVwn6Dskg25MjCiRDe0hYiTd_YcEoIXg0wTcpUW8YohmiiYada3mHZ_t2fJdpqreIqtiihP85_M1GmYerj6bezNgngvTfTtkxs_fQPixn7qS9lFL65c4fruEE5RnC1YyyHxLUDi7IInVXTkq4eiiI7ftUMz5ipiteWIVmyoHP1k7glBJZnVgNW05E533WAXFBv3kcwLTvAfQ_wvvo3ixJihy2W0IqJpEuj9UvlhpHp2Dm8nyjkDEtXa0bgSQKrdupdJcPyg-e_vE7S-06KGMnJz0cBWN3iTAc3iNGAqWV37Ev5GlQvw1hgzPLh4-brGsiZo57vX3Z-2ojuf2Nfnga7TI65N6YkYrymiAV-BGGPrnTkcBVYbTGhau-m0fcn7HANMiaehiyPpNB7ltYuKvy4seer1qHSCQAhVETiw=w1052-h241-no?authuser=0)
+
+  ### Translação de uma imagem
+  ![Exemplo de Translação de uma imagem](https://lh3.googleusercontent.com/TertKQnI5faiuC3cttgGSdZPeebEqk6L67guYI2Ta3pmKBRCUR9TaA2ZIu1Q9SXpo171uoZdJ57VzE_-yI-OmTDhcIzHuHe1zo8bcqYWGVQy63BMz1vSACkNggyPx-2FXzrfvmT9IrCiFt7ZTbJGxX23G8joc4NE3oHSpESMahl6VGouPhFA3YmzG3mcV_RSXW9pC7_nUIGuZ4dLTLERMkK-jiuQDbUT42AwirKGGDT-aTBjGHlWmD0YGwdF5M7KJWE2e61H2QFsRU1FvXS6DjlDcbFctQ8GaxsDak9JNDXVCwtDtbn3RKHSq00mkQLKdK7I_UKBBQacShuTXoz6qvJmFnQ5igBIq7NmuGaBWtvwPCOZ6Oi5-imCFTyNliP42rpHswpf03Vg6NhdICsVP84JpCikJWsBJibtkIK8bF41OSbTqzffH6sx9T2gN0jKh7dzBog7jUyPerR6P5rj3PO7KMxZn1hVZqKRrxtG_bXZtLU6eCol4AfhGE8ZcjyUG5BW4zPqzWpu1ih3SHSTnHhqvE1k5ESFnPEfJryJP-DrsOFpV53LTxBFbtu9pK14YLwCM6s71srAZn2ICfktl49tJhAKW9drvuye1gjaAiASKiqoxYrbDRTMPAQjLSspy-ze5_lKasN7hNoACgUOqbGlf9fq3L2RAqxTd2kHPi_V4Rfk2qL1Ix71qy_koWCRoucNPrA1WlVvivcFNUOSjqs=w565-h275-no?authuser=0)
+  ### Negativo de uma imagem
+  ![Exemplo de Negativo de uma imagem](https://lh3.googleusercontent.com/tUJYeO3anJDnrHk3V8MDi1oyblHvmMeQnmpSBdE3bMAaEPnJTGfBD2kzEMiHl8O-r8CrCEWBW-XEjm01PJuixolsgTLIsZSz2HaJ3D4r5BaLauZi6Uxn3sUlKRYHICjG3dbiPvQUsqVTEd5CtuUkBkFd1jQ1RjoAucR55WI5bAT18LuWXr5gQ6voDblF9wnnJVn1fPEB_DwdnMwxPvCDGvbOdx-Eq4Wyu6GvKvm2bcnUxAzbouE9msyIJCraoWY7pKUOIc1mkIo3vk6GmmhHaNdAhgBdTeis5F4swL3Rez_7Fk1xumdE2zYz-YYn7yI5kyg_dL7DBO8R8K2nyykHsmNVQdhcTTuaaAUqtKDjCAGXqTR74ILveS4h83PKhkIglG9AHKN6HDgmRKzjJYKt5I2Ql13r_8UPk_AXLgapgu-FgqWwEksz_8SgREHkfMcaNK5litJlYn61DqgqX4csQzaBjhkm0GQCtUWXsB02BsyEtie9Cf68b55ipxV8QtJ8Y2qzts1-Lhu5iqn4l6OH3gaALT1XViN5tp7aeOhGYa-Spt8XP06PeoXSfph-VpbKMfHcNzS1SM3yF0Fd7Fa5PM5jVr4G1FJVkv1tYcv9JHOlANdMUiJUmAW3kKpO2W41rQ8O4Wt87hU0a8r_m3cxqndJJqXrznEYIHii8j_Wu4shsQz8KrydXhHtEzIhwrU_HObaugOum8xCaKCKW885hbo=w508-h303-no?authuser=0)
 
 ## Uso
-* Para o funcionamento deste projeto é necessário que as bibliotecas NumPy e OpenCV estejam instaladas. Instale utilizando os comandos:
+* Para o funcionamento deste projeto é necessário que as bibliotecas NumPy e OpenCV estejam instaladas. Instale-as utilizando os comandos:
   * `pip3 install NumPy`
   * `pip3 install opencv-python`
-* Há sugestões de imagens para testes na pasta `sample`.
-* As imagens resultantes do programa são salvas na pasta `export`.
+* Há sugestões de imagens para utilização na pasta `sample`.
+* As novas imagens interpoladas pelo programa são salvas na pasta `export`.
 
-## Objetivos:
-* Parte 1:
-  * Implementar duas operações aritméticas e uma operação geométrica para processar imagens.
-* Parte 2:
-  * Implementar uma função de transformação de intensidade.
-* Conclusão:
-  * Gravar vídeo explicando o código desenvolvido
-
-## Tecnologias:
+## Tecnologias utilizadas
 * Python 3.9.3
   * OpenCV 4.5.2.52
   * NumPy 1.20.2
@@ -25,19 +52,3 @@
 ## Documentação:
 * [OpenCV Docs](https://docs.opencv.org/master/d6/d00/tutorial_py_root.html)
 * [NumPy Docs](https://numpy.org/doc/)
-
-## Desenvolvimento:
-* [x] Operações aritméticas:
-  * [x] Adição
-  * [x] Subtração
-  * [ ] Divisão
-  * [ ] Multiplicação
-* [x] Operação geométrica:
-  * [ ] Rotação
-  * [x] Translação
-  * [ ] Espelhamento
-  * [ ] Reflexão
-* [x] Transformação de intensidade:
-  * [x] Negativo
-  * [ ] Transformações logarítmicas
-  * [ ] Transformações de Potência
